@@ -5,17 +5,17 @@ public cloud (AKS) products:
 			   微软云aks的uat环境部分yml,及逻辑架构图。 
 
 
-创建资源：
+创建k8s资源：
 
-	k8s kubectl create  -f c_k8s_uat.yml ;
-	kubectl  create -f php_k8s_uat.yml ;  
+	kubectl create  -f c_k8s_uat.yml ;
+	kubectl create -f php_k8s_uat.yml ;  
 	kubectl create  -f php_k8s_uat.yml
 	
 获取资源状态(支持执行 kubectl api-resources 命令的显示的资源状态信息)：
 
-	kubectl get deployments ; 
-	kubectl get service ;
-	kubectl get pods -o wide
+	kubectl get deployments ; 或 kubectl get deployments -o wide
+	kubectl get service ; 或 kubectl get service -o wide
+	kubectl get pods ； 或 kubectl get pods -o wide
 	
 弹性伸缩手动：
 
