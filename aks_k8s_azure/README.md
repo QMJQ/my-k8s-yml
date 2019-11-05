@@ -7,8 +7,11 @@ public cloud (AKS) products:
 
 创建k8s资源：
 
+	kubectl create  -f azure-file-sc.yaml
+	kubectl create  -f azure-file-pvc.yaml
+	
 	kubectl create  -f c_k8s_uat.yml ;
-	kubectl create -f php_k8s_uat.yml ;  
+	kubectl create  -f php_k8s_uat.yml ;  
 	kubectl create  -f php_k8s_uat.yml
 	
 获取资源状态(支持执行 kubectl api-resources 命令的显示的资源状态信息)：
