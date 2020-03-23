@@ -1,7 +1,7 @@
 # my-k8s-yml
 Kubernetes ,in my work, write by myself. 
 
-and also use public cloud (ACK、AKS、EKS) roducts. 
+and also use public cloud (ACK、AKS、EKS) . 
 
     阿里云容器服务：Kubernetes 版(简称 ACK)
     微软云容器服务：Kubernetes 版(简称 AKS)
